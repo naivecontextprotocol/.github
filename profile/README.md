@@ -27,12 +27,12 @@ Goals:
 and how to call them.
 
 #### Resources
-Within the `ncp-tools.json`, use OpenAPI tags to define:
+Within the `ncp-tools.json`, use OpenAPI tags:
 - `resource_list` to annotate the endpoint for listing resources
 - `resource_read` to annotate the endpoint for fetching the resource
 
 #### Prompts
-Within the `ncp-tools.json` use OpenAPI tags to define:
+Within the `ncp-tools.json` use OpenAPI tags:
 - `prompt_list` to annotate the endpoint for listing prompts
 - `prompt_read` to annotate the endpoint for fetching the prompt
 
@@ -40,13 +40,15 @@ Within the `ncp-tools.json` use OpenAPI tags to define:
 Please create a pull request.
 
 Tasks:
+- [ ] Define the input & output for resource endpoints
+- [ ] Define the input & output for the prompt endpoints
 - [ ] Add examples to the spec
+- [ ] Explain the advantages
+- [ ] Add a section for real-time communication
 - [ ] Make an example server (hosted)
 - [ ] Make an MCP server that uses NCP behind the scene to make adoption easier
 - [ ] Expand on the Authorization
 - [ ] Create a reference implenetation (if needed)
-- [ ] Define the input & output for resource endpoints
-- [ ] Define the input & output for the prompt endpoints
 
 
 <!--
